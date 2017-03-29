@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSMQ.MulticastMessageSender", "MSMQ.MulticastMessageSender\MSMQ.MulticastMessageSender.csproj", "{EE01EF9A-7CEF-4DD9-A06B-EEB621C747E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSMQ.MulticastMessageReceiver", "MSMQ.MulticastMessageReceiver\MSMQ.MulticastMessageReceiver.csproj", "{AB731F01-9082-4ED2-A81D-4E67BED50888}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSMQ.CustomMessageSender", "MSMQ.CustomMessageSender\MSMQ.CustomMessageSender.csproj", "{60D8B778-3225-45B6-95EE-EDC013F21666}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSMQ.Subqueue.Sender", "MSMQ.Subqueue.Sender\MSMQ.Subqueue.Sender.csproj", "{F9D81F32-DC70-47A8-98E2-926BC57F8EC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSMQ.Helpers", "MSMQ.Helpers\MSMQ.Helpers.csproj", "{DC0462DD-4DF8-4C88-9390-71F280145F46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSMQ.TransactionSender", "MSMQ.TransactionSender\MSMQ.TransactionSender.csproj", "{D00CA05C-0CAF-43D4-87AF-C7A6536F9AC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE01EF9A-7CEF-4DD9-A06B-EEB621C747E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE01EF9A-7CEF-4DD9-A06B-EEB621C747E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE01EF9A-7CEF-4DD9-A06B-EEB621C747E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE01EF9A-7CEF-4DD9-A06B-EEB621C747E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB731F01-9082-4ED2-A81D-4E67BED50888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB731F01-9082-4ED2-A81D-4E67BED50888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB731F01-9082-4ED2-A81D-4E67BED50888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB731F01-9082-4ED2-A81D-4E67BED50888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60D8B778-3225-45B6-95EE-EDC013F21666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60D8B778-3225-45B6-95EE-EDC013F21666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60D8B778-3225-45B6-95EE-EDC013F21666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60D8B778-3225-45B6-95EE-EDC013F21666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9D81F32-DC70-47A8-98E2-926BC57F8EC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9D81F32-DC70-47A8-98E2-926BC57F8EC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9D81F32-DC70-47A8-98E2-926BC57F8EC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9D81F32-DC70-47A8-98E2-926BC57F8EC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC0462DD-4DF8-4C88-9390-71F280145F46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC0462DD-4DF8-4C88-9390-71F280145F46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC0462DD-4DF8-4C88-9390-71F280145F46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC0462DD-4DF8-4C88-9390-71F280145F46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D00CA05C-0CAF-43D4-87AF-C7A6536F9AC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D00CA05C-0CAF-43D4-87AF-C7A6536F9AC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D00CA05C-0CAF-43D4-87AF-C7A6536F9AC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D00CA05C-0CAF-43D4-87AF-C7A6536F9AC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
