@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSMQ.MulticastMessageSender", "MSMQ.MulticastMessageSender\MSMQ.MulticastMessageSender.csproj", "{EE01EF9A-7CEF-4DD9-A06B-EEB621C747E3}"
 EndProject
@@ -14,6 +14,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSMQ.Helpers", "MSMQ.Helpers\MSMQ.Helpers.csproj", "{DC0462DD-4DF8-4C88-9390-71F280145F46}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSMQ.TransactionSender", "MSMQ.TransactionSender\MSMQ.TransactionSender.csproj", "{D00CA05C-0CAF-43D4-87AF-C7A6536F9AC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSMQ.TransactionReceiver", "MSMQ.TransactionReceiver\MSMQ.TransactionReceiver.csproj", "{5DD9E9A0-A74F-47AB-AEAE-DF222E6E83FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSMQ.CustomMessageReceiver", "MSMQ.CustomMessageReceiver\MSMQ.CustomMessageReceiver.csproj", "{CCA39957-7BD1-4C7D-9CA2-865A105784AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{D00CA05C-0CAF-43D4-87AF-C7A6536F9AC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D00CA05C-0CAF-43D4-87AF-C7A6536F9AC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D00CA05C-0CAF-43D4-87AF-C7A6536F9AC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DD9E9A0-A74F-47AB-AEAE-DF222E6E83FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DD9E9A0-A74F-47AB-AEAE-DF222E6E83FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DD9E9A0-A74F-47AB-AEAE-DF222E6E83FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DD9E9A0-A74F-47AB-AEAE-DF222E6E83FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCA39957-7BD1-4C7D-9CA2-865A105784AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCA39957-7BD1-4C7D-9CA2-865A105784AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCA39957-7BD1-4C7D-9CA2-865A105784AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCA39957-7BD1-4C7D-9CA2-865A105784AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

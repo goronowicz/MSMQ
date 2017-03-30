@@ -8,6 +8,12 @@ namespace MSMQ.CustomMessageSender
         static void Main(string[] args)
         {
             var addres = args[0];
+            var priority = MessagePriority.Normal;
+
+            if (args.Length > 1)
+            {
+                Enum.TryParse(args[1], out priority);
+            }
 
             using (var queue = new MessageQueue(addres))
             {
@@ -22,9 +28,9 @@ namespace MSMQ.CustomMessageSender
                         messageBody = "<EmptyMessage>";
                     }
                     var message = new Message(messageBody)
-                                      {
-                                          Priority = MessagePriority.VeryHigh
-                                      };
+                    {
+                        Priority = priority
+                    };
                     queue.Send(message);
 
                     Console.WriteLine($"Message {messageBody} send to the multicast addres : {addres}");

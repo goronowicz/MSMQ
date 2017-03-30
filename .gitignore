@@ -1,0 +1,7 @@
+packages/
+MSMQ.TransactionSender/obj/
+MSMQ.TransactionReceiver/obj/
+MSMQ.Subqueue.Sender/obj/
+*/bin/
+*/obj/
+.vs/MSMQExcercisePlatform/v15/.suo
