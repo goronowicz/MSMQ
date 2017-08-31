@@ -19,7 +19,7 @@ namespace MSMQ.TransactionSender
                     using (var transaction = new MessageQueueTransaction())
                     {
                         transaction.Begin();
-                        queue.Send(message);
+                        queue.Send(message, transaction);
 
                         /*queue.Send(message);
                         transaction.Abort();*/
